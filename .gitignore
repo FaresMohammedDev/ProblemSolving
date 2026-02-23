@@ -1,0 +1,6 @@
+.vs/
+out/
+bin/
+obj/
+*.exe
+*.ipch
