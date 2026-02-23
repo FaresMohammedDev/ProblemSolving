@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Representing Weighted Graph using Edge List with Tuples/Representing Weighted Graph using Edge List with Tuples.vcxproj" />
+</Solution>

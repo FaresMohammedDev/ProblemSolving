@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Building Adjacency List (Undirected Graph)/Building Adjacency List (Undirected Graph).vcxproj" />
+</Solution>

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Brute Force Closest Pair of Points/Brute Force Closest Pair of Points.vcxproj" />
+</Solution>

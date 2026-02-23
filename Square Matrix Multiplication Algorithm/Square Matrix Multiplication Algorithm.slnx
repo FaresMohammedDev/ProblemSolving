@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Square Matrix Multiplication Algorithm/Square Matrix Multiplication Algorithm.vcxproj" />
+</Solution>

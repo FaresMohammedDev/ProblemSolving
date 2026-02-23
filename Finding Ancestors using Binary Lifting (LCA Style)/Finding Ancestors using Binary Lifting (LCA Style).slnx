@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Finding Ancestors using Binary Lifting (LCA Style)/Finding Ancestors using Binary Lifting (LCA Style).vcxproj" />
+</Solution>

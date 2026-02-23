@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Depth First Search (DFS) on Adjacency List/Depth First Search (DFS) on Adjacency List.vcxproj" />
+</Solution>

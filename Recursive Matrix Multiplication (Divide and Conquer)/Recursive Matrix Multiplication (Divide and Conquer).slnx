@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Recursive Matrix Multiplication (Divide and Conquer)/Recursive Matrix Multiplication (Divide and Conquer).vcxproj" />
+</Solution>

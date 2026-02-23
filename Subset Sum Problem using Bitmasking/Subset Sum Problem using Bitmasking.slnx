@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Subset Sum Problem using Bitmasking/Subset Sum Problem using Bitmasking.vcxproj" />
+</Solution>

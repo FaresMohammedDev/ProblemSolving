@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Bellman-Ford Algorithm for Shortest Path and Negative Cycle Detection/Bellman-Ford Algorithm for Shortest Path and Negative Cycle Detection.vcxproj" />
+</Solution>

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Iterative Binary Search on Sorted Array/Iterative Binary Search on Sorted Array.vcxproj" />
+</Solution>
