@@ -1,0 +1,5 @@
+﻿  Merge Sort.cpp
+D:\Projects\Problem Solving\Merge Sort\Merge Sort\Merge Sort.cpp(7,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Projects\Problem Solving\Merge Sort\Merge Sort\Merge Sort.cpp(8,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\Projects\Problem Solving\Merge Sort\Merge Sort\Merge Sort.cpp(40,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Merge Sort.vcxproj -> D:\Projects\Problem Solving\Merge Sort\x64\Debug\Merge Sort.exe
