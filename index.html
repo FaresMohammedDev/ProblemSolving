@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متتبع التقدم الدراسي | My Progress</title>
+    <meta name="description" content="A premium study progress tracker for high school subjects.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-effects">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <header class="main-header">
+        <div class="header-content">
+            <h1><i class="fa-solid fa-graduation-cap"></i> متتبع التقدم الدراسي</h1>
+            <p>Your Path to Success</p>
+            <div class="overall-progress-container">
+                <div class="progress-info">
+                    <span>التقدم العام</span>
+                    <span id="overall-percentage">0%</span>
+                </div>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill" id="overall-progress-bar"></div>
+                </div>
+            </div>
+            <button id="reset-btn" class="reset-btn"><i class="fa-solid fa-rotate-right"></i> إعادة ضبط التقدم</button>
+        </div>
+    </header>
+
+    <div class="container tasks-container-wrapper" id="tasks-wrapper">
+        <div class="tasks-section">
+            <h2 class="tasks-title"><i class="fa-solid fa-list-check"></i> مهام اليوم</h2>
+            <div class="task-input-group">
+                <select id="task-subject-select" class="task-select">
+                    <option value="" disabled selected>اختر المادة...</option>
+                </select>
+                <select id="task-lesson-select" class="task-select" disabled>
+                    <option value="" disabled selected>اختر الدرس...</option>
+                </select>
+                <button id="add-task-btn" class="add-task-btn" disabled><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <div id="tasks-list" class="tasks-list">
+                <!-- Tasks injected here -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container exams-container-wrapper" id="exams-wrapper">
+        <div class="exams-section expanded" id="exams-section-main">
+            <h2 class="exams-title" id="exams-main-title"><i class="fa-solid fa-file-signature"></i> تجهيزات الامتحانات</h2>
+
+            <div class="exam-content-wrapper">
+                <div class="exam-input-group">
+                    <button id="open-exams-modal-btn" class="open-modal-btn"><i class="fa-solid fa-layer-group"></i> اختيار دروس الامتحان</button>
+                </div>
+
+                <div id="exams-subjects-list" class="exams-subjects-list">
+                    <!-- Exam subjects injected here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Exams Selection Modal -->
+    <div id="exams-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fa-solid fa-book-open-reader"></i> حدد الدروس المطلوبة للامتحان</h2>
+                <button id="close-exams-modal-btn" class="close-modal-btn"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body" id="exams-modal-body">
+                <!-- Subjects and lessons checkboxes injected here -->
+            </div>
+            <div class="modal-footer">
+                <button id="save-exams-btn" class="save-modal-btn">حفظ الاختيارات</button>
+            </div>
+        </div>
+    </div>
+
+    <main class="container" id="subjects-container">
+        <!-- Cards will be injected here via JavaScript -->
+    </main>
+
+    <div class="container accumulated-container-wrapper" id="ahead-wrapper" style="display: none;">
+        <div class="ahead-section">
+            <h2 class="ahead-title"><i class="fa-solid fa-trophy"></i> إنجازات تسبق فتح الله</h2>
+            <div id="ahead-list" class="ahead-list">
+                <!-- Ahead lessons injected here -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container accumulated-container-wrapper" id="accumulated-wrapper" style="display: none;">
+        <div class="accumulated-section">
+            <h2 class="accumulated-title"><i class="fa-solid fa-triangle-exclamation"></i> المواد المراكمة</h2>
+            <div id="accumulated-list" class="accumulated-list">
+                <!-- Accumulated lessons injected here -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Made with Fares Mohammed يارب ينجح ويتجوز</p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
